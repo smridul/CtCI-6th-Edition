@@ -1,0 +1,15 @@
+* Two integers are relatively prime (or coprime) if there is no integer greater
+ than one that divides them both (that is, their greatest common divisor is one).
+ For example, 12 and 13 are relatively prime, but 12 and 14 are not.
+
+* hard problem 17.7 i missed the crucial step which is create a map of string to set.
+
+* missing two: the solution discussed intitially with prime number will not work because of run time
+limitation but it is good to know that. important concept about prime numbers
+
+* question min super subsequence was easy but the way written in CTCI is awesome using llist and heap.
+and the concept of closure is also great.
+
+* concept of left sweep and right sweep is super helpful sometime. it was great in  closure question and histogram
+problem
+

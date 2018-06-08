@@ -1,0 +1,12 @@
+1. 3 sum
+2. a+b+c= X
+ find the values of a, b, c.  given a, c, b >0
+
+3. verifym my stack of boxes solution with book solution and see if i can change it if extra info is needed
+
+* min/max heap creation and their time
+
+* postmortem of quick sort like really with equality signs clarity
+* rank selection algorithm  proper implementation
+* stack of tower again analysys. I think the way i implemented it was not fully wrong i can
+do it that way. i came to know that after solving the massuse(15 min ) appointment problem
