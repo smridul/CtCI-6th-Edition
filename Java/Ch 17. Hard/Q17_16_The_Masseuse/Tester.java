@@ -1,6 +1,7 @@
 package Q17_16_The_Masseuse;
 
 import CtCILibrary.AssortedMethods;
+import myanswers.Massuse;
 
 public class Tester {
 	public static int[] generateRandomArray(int size) {
@@ -51,10 +52,11 @@ public class Tester {
 			int maxB = QuestionB.maxMinutes(massages);
 			int maxC = QuestionC.maxMinutes(massages);
 			int maxD = QuestionD.maxMinutes(massages);
+			int myAnswer = Massuse.maxMinutes(massages);
 			int[] list = sumEveryOther(massages);
 			if (maxB != list[0] && maxB != list[1]) {
 				System.out.println(AssortedMethods.arrayToString(massages));
-				System.out.println(maxB + ", " + maxC + ", " + maxD);
+				System.out.println(maxB + ", " + maxC + ", " + maxD + ", " + myAnswer);
 			}			
 			if (maxB != maxC || maxC != maxD) {
 				System.out.println("Error at " + i + ": " + maxB + ", " + maxC + ", " + maxD);

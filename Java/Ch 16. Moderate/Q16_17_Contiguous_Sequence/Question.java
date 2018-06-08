@@ -17,7 +17,10 @@ public class Question {
 	}
 	
 	public static void main(String[] args) {
-		int[] a = {2, -8, 3, -2, 4, -10};
+
+		int[] a = {-2, -8, -1, -2, -3, -10};
+
+		//int[] a = {2, -8, 3, -2, 4, -10};
 		System.out.println(getMaxSum(a));
 	}
 }

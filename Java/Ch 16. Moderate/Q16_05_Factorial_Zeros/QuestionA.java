@@ -29,7 +29,7 @@ public class QuestionA {
 	}
 	
 	public static void main(String[] args) {
-		for (int i = 1; i < 12; i++) {
+		for (int i = 1; i < 27; i++) {
 			System.out.println(i + "! (or " + factorial(i) + ") has " + countFactZeros(i) + " zeros");
 		}
 	}

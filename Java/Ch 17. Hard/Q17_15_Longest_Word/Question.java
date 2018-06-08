@@ -36,7 +36,7 @@ public class Question {
 	}	
 
 	public static void main(String[] args) {
-		String[] arr = createGiantArray();	
+		String[] arr = createGiantArray();
 		printLongestWord(arr);
 	}
 	
